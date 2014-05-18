@@ -1,0 +1,8 @@
+#header {
+	position:center;
+}
+#footer {
+	position: absolute;
+	bottom: 100px;
+	float: right;
+}
