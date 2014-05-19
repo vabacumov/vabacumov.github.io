@@ -20,6 +20,18 @@ ol {
 li {
 	font-size: 13px;
 }
+ul li a:link {
+	color: grey;
+}
+ul li a:visited {
+	color: green;
+}
+ul li a:hover{
+	color: orange;
+}
+ul li a:active{
+	color: blue;
+}
 .heading {
 	font-weight: bolder;
 }
@@ -33,4 +45,7 @@ li {
 }
 #email {
 	font-style: italic;
+}
+#img_link {
+	text-align: center;
 }
