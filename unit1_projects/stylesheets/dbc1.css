@@ -33,7 +33,7 @@ ul li a:active{
 	color: blue;
 }
 .heading {
-	font-weight: bolder;
+	font-weight: 700;
 }
 #my_photo {
 	width: 500px;
@@ -48,4 +48,8 @@ ul li a:active{
 }
 #img_link {
 	text-align: center;
+}
+#hobbies {
+	font-family: courier new;
+	font-style: oblique;
 }
