@@ -1,20 +1,33 @@
 body {
 	background-color: #ACFBDA;
 }
-.heading {
-
+header {
+	text-align: center;
 }
-.list {
-	color: #10D8A2;
+.heading {
+	font-weight: bolder;
+}
+p {
+	font-family: Verdana, sans-serif;
+}
+ul {
+	font-variant: small-caps;
+}
+ol {
+	font-family: Arial;
+	color: #F0A;
+}
+li {
+	font-size: 13px;
 }
 #my_photo {
 	width: 500px;
 	height: auto;
 }
-#paragraph_3 {
-	color: dark green;
-}
 #eurosport {
 	width: 300px;
 	height: auto;
+}
+#email {
+	font-style: italic;
 }
