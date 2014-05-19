@@ -4,8 +4,8 @@ body {
 header {
 	text-align: center;
 }
-.heading {
-	font-weight: bolder;
+footer {
+	text-align: center;
 }
 p {
 	font-family: Verdana, sans-serif;
@@ -19,6 +19,9 @@ ol {
 }
 li {
 	font-size: 13px;
+}
+.heading {
+	font-weight: bolder;
 }
 #my_photo {
 	width: 500px;
