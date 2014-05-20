@@ -46,3 +46,8 @@ a:hover, a:active {
 	text-decoration: none;
 	background-color: orange;
 }
+#caption{
+	position: absolute;
+	left:900px;
+    top:270px;
+}
