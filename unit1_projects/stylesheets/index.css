@@ -1,10 +1,10 @@
 }
 header {
 	text-align: center;
+	background-color: green;
 }
 section {
 	background-color: rgb(190,24,255);
-
 }
 footer {
 	text-align: center;
@@ -13,6 +13,7 @@ footer {
 footer a {
 	font-family: Verdana;
 	text-decoration: none;
+	background-color: yellow;
 }
 #my_img {
 	height: 300px;
