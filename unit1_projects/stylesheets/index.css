@@ -1,0 +1,27 @@
+header {
+	text-align: center;
+	background-color: #569AF4;
+	margin-bottom: 50px;
+}
+section {
+	text-align: center;
+	background-color: #6631A5;
+}
+footer {
+	text-align: center;
+	background-color: 41F3B2;
+	margin-top:25px;
+}
+a:link {
+	font-family: Verdana;
+}
+a:visited {
+	font-weight: 150;
+}
+a:hover {
+	font-weight: 600;
+}
+#my_img {
+	width: 25px;
+	height: auto;
+}
