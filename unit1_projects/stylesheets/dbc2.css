@@ -1,8 +1,48 @@
+#sidebar {
+	float: left;
+	width: 200px;
+	display: block;
+	background-color: rgb(187,50,0);
+	text-align: center;
+}
+#content_area {
+	float: right;
+	width: 500px;
+
+}
 #header {
-	position:center;
+	background-image: url("http://scm-l3.technorati.com/12/12/13/73853/devbootcamp.png?t=20121213131231");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	text-align:center;
+	height: 250px;
+}
+#content_area,#sidebar {
+	height: 370px;
 }
 #footer {
-	position: absolute;
-	bottom: 100px;
-	float: right;
+	clear: both;
+	margin-top: 75px;
+	text-align: center;
+}
+#footer img {
+	height: 70px;
+	width: 100%;
+}
+a:link, a:visited {
+	display: block;
+	font-weight: bold;
+	width: 100px;
+	height: auto;
+	padding: 2px;
+	text-decoration: none;
+	background-color: rgb(0,250,200);
+}
+a:hover, a:active {
+	display: block;
+	width: 100px;
+	height: auto;
+	padding: 2px;
+	text-decoration: none;
+	background-color: orange;
 }
