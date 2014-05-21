@@ -13,7 +13,7 @@ h1 {
 
  #one {
 	margin: 15px auto;
-	background-color: red;
+	border: solid 2px red;
 }
 #amazon img {
 	height: 300px;
@@ -27,7 +27,8 @@ h1 {
 
 #two {
 	margin: 15px auto;
-	background-color: green;
+	border: solid 2px green;
+
 }
 #eurosport img {
 	height: 300px;
@@ -38,7 +39,8 @@ h1 {
 
 #three {
 		margin: 15px auto;
-		background-color: blue;
+		border: solid 2px blue;
+
 }
 #wikipedia img {
 	height: 300px;
@@ -49,17 +51,38 @@ h1 {
 }
 
 #contact {
-	position: fixed;
-	background-color: yellow;
-	width: 100%;
+	width: 99.5%;
 	text-align: center;
+	padding: 5px;
+	background-color: #CCFF33;
 
+}
+#contact p {
+	text-align: center;
+	font-family: Arial;
+	font: bolder;
+	font-size: 20px;
+	font-style: normal;
+}
+#contact a:link {
+	text-decoration: none;
+
+}
+#contact a:visited {
+	color: gray;
+}
+#contact a:hover {
+	font-size: 1.5em;
 }
 p a {
 	text-decoration: none;
 	font-weight: 700;
 	text-transform: uppercase;
+	font-style: normal;
 }
 p {
 	text-align: justify;
+	margin: auto 5px;
+	font-style: italic;
+	line-height: 140%;
 }
