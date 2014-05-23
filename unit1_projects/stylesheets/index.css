@@ -1,14 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
 }
 header {
 	text-align: center;
-	background-color: green;
+	background-color: #667FC8;
 }
 section {
-	background-color: rgb(190,24,255);
+	background-color:#B200B2;
+	text-align: center;
+	padding: 50px 0;
+	line-height: 30px;
 }
 footer {
+	bottom: 0px;
 	text-align: center;
-	margin-top:25px;
+	background-color: #999900;
 }
 footer a {
 	font-family: Verdana;
@@ -20,4 +27,17 @@ footer a {
 img {
 	height: 50px;
 	width: auto;
+}
+header img {
+	height: 250px;
+	width: auto;
+}
+section a:hover{
+	text-decoration: none;
+	color: #D1FFFF;
+	font-size: 1.2em;
+}
+p:first-child {
+	font-family: Bookman Old Style;
+	text-transform: uppercase;
 }
