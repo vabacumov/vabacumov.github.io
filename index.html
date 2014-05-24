@@ -2,29 +2,64 @@
 <html>
 <head>
 	<title>Vlad's GitHub Homepage</title>
-	<link rel="stylesheet" type="text/css" href="unit1_projects/stylesheets/index.css" /> 
+	<link rel="stylesheet" type="text/css" href="unit1_projects/stylesheets/test_index.css" />
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+      function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(37.927388, -122.038294),
+          zoom: 11,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </head>
 <body>
-	<header>
-		<img src="unit1_projects/images/Lord.jpg" alt="cat1" />
-		<img id="my_img" src="unit1_projects/images/Vlad_Hookah.JPG" alt="Vlad_Hookah" />
-		<img src="unit1_projects/images/Julian.jpg" alt="cat2" />
-		<p>Vladislav Abacumov and his cats</p>
-	</header>
-	<section>
-		<p>My Work:</p>
-		<p><a href="unit1_projects/dbc1.html">DBC1</a></p>
-		<p><a href="unit1_projects/dbc2.html">DBC2</a></p>
-		<p><a href="unit1_projects/week1_cultural.html">Cultural Blog</a></p>
-		<p><a href="unit1_projects/week1_technical_blog.html">Technical Blog</a></p>
-		<p><a href="unit1_projects/wireframe_sites.html">Wireframing</a></p>
-	</section>
+	<nav>
+		<dropdown>
+			<select name="link">
+				<option value="list" selected>List of Web Pages</option>
+				<option value="DBC_1">DBC 1</option>
+				<option value="DBC_2">DBC 2</option>
+				<option value="Technical">Technical Blog</option>
+				<option value="Cultural">Cultural Blog</option>
+				<option value="Wireframing">Wireframing</option>
+				<option value="Wireframe_index">Wireframe for this page</option>
+			</select>
+		</dropdown>
+		<button><a href="http://vabacumov.github.io/unit1_projects/dbc1.html">DBC 1</a></button>
+		<button><a href="http://vabacumov.github.io/unit1_projects/dbc2.html">DBC 2</a></button>
+		<button><a href="http://vabacumov.github.io/unit1_projects/week1_technical_blog.html">Technical Blog</a></button>
+		<button><a href="http://vabacumov.github.io/unit1_projects/week1_cultural.html">Cultural Blog</a></button>
+		<button><a href="http://vabacumov.github.io/unit1_projects/wireframe_sites.html">Wireframing</a></button>
+		<button><a href="http://vabacumov.github.io/unit_projects/my_wireframe.html">Wireframe For This Page</a></button>
+	</nav>
+	<div id="section">
+		<p id="welcome">Hi everyone! My name is Vlad and I am pleased to meet everyone.</p>
+		<p id="about">I'm 25, married. Originally, I come from a county called Moldova, which is located in Eastern Europe. I've lived in U.S. for almost 10 years. I'm now located in Concord, CA(about 30 minutes away from SF). I'm a big soccer fan. Also, know a lot about hockey and used to play it myself back in the day. Really enjoy studying history. Like both cats and dogs.</br><span style="font-style:italic">Check out the video of my crazy friends who completed a journey across the whole Russia without a single penny in their pockets!</span></p>
+		<iframe width="700" height="275"
+		src="http://www.youtube.com/embed/YL9aI2ypMP0">
+		</iframe>
+	</div>
+	<aside>
+		<p>My Approximate Location</p>
+		<div id="map_canvas"></div>
+		<p>This is Me</p>
+		<img id="my_image" src="unit1_projects/images/Vlad_Hiking.jpg" alt="Vlad Hike" />
+		
+	</aside>
 	<footer>
-		<h4>Contact Info:</h4>
-		<a href="mailto:vabacumov@gmail.com"><img src="http://www.hatchbuck.com/wp-content/uploads/2013/12/gmail1.png" alt="Email" /></a>
-		<a href="https://plus.google.com/u/0/111639571017847328032/posts/p/pub"><img src="http://www.stamgent.be/userfiles/images/logo/GooglePlusLogo.png" alt="Google+" /></a>
-		<a href="http://vk.com/vabacumov"><img src="http://www.roxwall.com/ow_userfiles/plugins/shoppro/images/product_7.jpg" alt="VK" /></a>
+		<a href="mailto:vabacumov@gmail.com"><img id="outer_left" src="unit1_projects/images/Gmail-icon.png" alt="Gmail" /></a>
+		<a href="https://plus.google.com/u/0/111639571017847328032/posts/p/pub"><img src="unit1_projects/images/google+_icon.png" alt="G+" /></a>
+		<a href="http://vk.com/vabacumov"><img src="unit1_projects/images/Vk-icon.png" alt="VK" /></a>
+		<a href="skype:vabacumov?call"><img src="unit1_projects/images/Skype-icon.png" alt="Skype" /></a>
+		<a href="https://www.youtube.com/user/vladsterkoba"><img src="unit1_projects/images/youtube-icon.png" alt="Youtube" /></a>
 	</footer>
+
+
 
 </body>
 </html>
