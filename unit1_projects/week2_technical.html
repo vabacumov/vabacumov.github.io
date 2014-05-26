@@ -6,13 +6,40 @@
 </head>
 <body>
 	<div id="header">
+		<h1>TECH Blog</h1>
+		<h2 id="week2">Week 2</h2>
+	</div>
+	<div id="section">
 		<h1>How to pick a <span class="important">class</span>y ID and how to <span class="important">id</span>entify class?</h1>
+		<p>As you could have already guessed by my inelaborate attempt to make a joke in the title above, this week's topic is about the best practices associated with usind classes vs ids. These 2 CSS selectors are irreplacable when it comes to creating any webpage.</p>
+		<p>Both ID's and classes are needed in CSS for things like positioning and styling, but other web languages depend on them too, for example, Javascript. The most important thing to memorize about them is that ID's are unique while classes are not.
+		<p>It might seem too obvious to be important, but you have to remember that any given element can only have a single ID. At the same time any given webpage can only have one element with that same unique ID. In case you forget this rule and happen to use the same ID on more than one element, your code will simply not pass validation, and thus, the webpage will not work.
+		<p>On the other hand, classes are not like that at all. In fact, classes are meant to be used more than once and it is generally a good idea to give elements, to which the same styling information will be applied, same class name. Just like that:</p>
+			<img src="images/class_example.png" />
+		<p>Another useful thing to know about classes is that, unlike with ID's, you can apply more than one class on a single element in case that element will share some of the styling with other elements but will also have its own unique styling. Simply separate classes with a space, just like it's done with the second element:</p>
+			<img src="images/class_class_example.png" />
+		<p>You can include as many class names as you like; most browsers support such a huge number of them that it's more than you ever going to need!</p>
+		<p><b>Tip</b>: There's a neat little trick about ID's. If you have a URL like http://yourdomain.com#<em>yourid</em>, the browser will automatically scroll the webpage down to the element with the ID value of "yourid". Yet another reason why ID's have to be absolutely unique (otherwise, if you have more than element with an ID value of "yourid", the browser won't know where to scroll!).</p>
+		<p>You can apply both an ID and a Class on a single element at the same time. Sometimes it could be very useful. Class could serve as a selector for some general styling while ID could be used for direct linking to an element:</p>
+			<img src="images/class+id_example.png" />
+		<p>Classes and ID's should be used semantically and judiciously. This means avoiding things like:</p>
+			<img src="images/bad_class_example.png" />
+		<p>or</p>
+			<img src="images/bad_id_example.png" />
+		<p>Instead, when choosing a name for a Class or an ID try to describe the context of an element, not its appearance or location on the page. A good example of ID would be something like "sidebar" or "footer".</p>
+		<p>Lastly, I would like to give you a real-world analogy to Classes and ID's so that you could better understand and compare the two. One concept that comes to my mind includes two things that all of us have: a ZIP code and an address. Despite the fact that many of us can share the same ZIP code, the address lines will always differ (well, maybe for some us who are going to be sharing housing while attending DBC, that won't be the case <img id="smiley" src="images/smiley.png" />). Or take bar codes and serial numbers: all iPhones of the same type in a store will have an exact same bar code on their packaging, but once you take out the actual iPhone out of the packaging, you've got yourself an item with a unique serial number. Both serve its own purpose: while it's much more convenient to store pricing information on a bar code rather than serial number, the latter is essential when a customer comes back to the store in 2 weeks and wants to, let's say, return the purchased item.</p>
+		<p>Hopefully, after reading this week's blog entry you will have no problem <span class="important">id</span>entifying class when you see it!</p>
+		<img src="images/get_classy.png" />
 	</div>
 	
-	<div id="contact">
-		<p>Contact Info</p>
-		<a href="mailto:vabacumov@gmail.com">Email</a></br>
-		<a href="https://plus.google.com/u/0/111639571017847328032/posts/p/pub">Google+</a>
+	<div id="footer">
+		<a href="mailto:vabacumov@gmail.com"><img id="outer_left" src="images/Gmail-icon.png" alt="Gmail" /></a>
+		<a href="https://plus.google.com/u/0/111639571017847328032/posts/p/pub"><img src="images/google+_icon.png" alt="G+" /></a>
+		<a href="http://vk.com/vabacumov"><img src="images/Vk-icon.png" alt="VK" /></a>
+		<a href="skype:vabacumov?call"><img src="images/Skype-icon.png" alt="Skype" /></a>
+		<a href="https://www.youtube.com/user/vladsterkoba"><img src="images/youtube-icon.png" alt="Youtube" /></a>
+		<a href="https://github.com/vabacumov/"><img src="images/Github-icon.png" alt="GitHub" /></a>
 	</div>
+
 </body>
 </html>
