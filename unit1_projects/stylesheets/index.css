@@ -36,6 +36,7 @@ button {
 #welcome {
 	position: relative;
 	font-size: 1.5em;
+	margin: 0;
 }
 #about {
 	position: relative;
