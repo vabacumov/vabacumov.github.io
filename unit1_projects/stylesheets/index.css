@@ -6,8 +6,13 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 1200px;
+	background-color: #B88AE6;
 }
 /* Nav */
+nav {
+	position: fixed;
+	width: 100%;
+}
 nav option button {
 	position: relative;
 	float: left;
@@ -24,7 +29,8 @@ button a:hover {
 button {
 	background-color: #DC9680;
 	border-radius:50px; 
-	padding:10px 0px;
+	padding:5px 5px;
+	margin: 3px 10px;
 	font-weight: 700;
 }
 /* Section */
@@ -53,8 +59,8 @@ iframe {
 aside {
 	position: absolute;
 	float: right;
+	top: 50px;
 	right: 30px;
-	top: 0;
 }
 aside p {
 	text-align: center;
@@ -70,7 +76,6 @@ footer {
 	bottom: 0;
 	height: 80px;
 	width: 1260px;
-	margin: auto 10px; 
 	background-color: #FFAD33;
 }
 footer img {
