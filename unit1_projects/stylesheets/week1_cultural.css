@@ -1,35 +1,36 @@
 body { 
-		margin: 0;
-		font: normal 12px/18px 'Helvetica', Arial, sans-serif;
-		background: #44accf;
+	margin: 0;
+	font: normal 12px/18px 'Helvetica', Arial, sans-serif;
+	background: #44accf;
 }
+/* Header */
 #header {
 	text-align: center;
 }
-
+#header p{
+	font-family: Bookman Old Style;
+	font-size: 1.2em;
+}
+/* Content */
 #content { 
-		padding: 20px 100px;
-		background: #fff;
-}
-#footer {
-	text-align: center;
-}
-img {
-	height: 50px;
-	width: auto;
+	padding: 20px 100px;
+	background: #CCCCCC;
 }
 #content p{
 	text-align: justify;
 	font-family: elephant;
 	font-size: 1.5em;
 }
-#header p{
-	font-family: Bookman Old Style;
-	font-size: 1.2em;
+/* Footer */
+#footer {
+	text-align: center;
 }
 #footer p{
 	font-family: Lucida Sans Unicode;
 }
-a:hover{
-	font-size: 1.2em;
+img {
+	height: 50px;
+	width: auto;
+	background-color: transparent;
+	border-radius: 20px;
 }
