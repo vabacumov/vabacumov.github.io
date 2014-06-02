@@ -1,21 +1,29 @@
+/* Google Maps */
 #map_canvas {
 	width: 400px;
 	height: 200px;
 }
 body {
-	margin: 0;
-	padding: 0;
-	width: 1200px;
-	background-color: #B88AE6;
+	background-color: #C9DBFF;
+	margin-left: 0;
 }
 /* Nav */
 nav {
 	position: fixed;
+	top: 0;
 	width: 100%;
+	padding-bottom: 10px;
+	background-color: #A1AFCC;
 }
-nav option button {
+button {
 	position: relative;
 	float: left;
+	left: 3%;
+	background-color: #DC9680;
+	border-radius:50px; 
+	padding:5px 5px;
+	margin: 10px 10px 3px 10px;
+	font-weight: 700;
 }
 button a {
 	text-decoration: none;
@@ -26,67 +34,78 @@ button a:visited {
 button a:hover {
 	color: #E6E600;
 }
-button {
-	background-color: #DC9680;
-	border-radius:50px; 
-	padding:5px 5px;
-	margin: 3px 10px;
-	font-weight: 700;
-}
+
 /* Section */
 #section {
+	width: 100%;
+}
+#left_section {
 	position: relative;
-	left: 50px;
+	float: left;
+	margin: 0;
 	top: 50px;
 }
 #welcome {
-	position: relative;
+	text-align: center;	
 	font-size: 1.5em;
+	font-variant: small-caps;
+	font-weight: bold;
 	margin: 0;
 }
 #about {
-	position: relative;
 	width: 500px;
 	text-align: justify;
-	left: 200px;
-	margin-bottom: 0;
-	padding-bottom: 0;
+	font-size: 1.15em;
+	font-family: Tahoma;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+figure {
+	margin-left: 0;
+	margin-top: 50px;
+}
+figcaption {
+	font-size: 0.9em;
+	font-style: oblique;
 }
 iframe {
+	margin-left: 35px;
+}
+#right_section {
 	position: relative;
-}
-/* Aside */
-aside {
-	position: absolute;
 	float: right;
+	margin: 0;
 	top: 50px;
-	right: 30px;
+	bottom: 60px;
 }
-aside p {
+#right_section p {
+	color: #7A7A00;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: center;
+	margin-bottom: 0;
 }
 #my_image {
-	height: 300px;
-	width: auto;
+	height: 250px;
+	width: 400px;
 	margin-top: 10px;
 }
 /* Footer */
-footer {
-	position: absolute;
+#footer {
+	position: fixed;
+	width: 100%;
 	bottom: 0;
-	height: 80px;
-	width: 1260px;
+	height: 60px;
 	background-color: #FFAD33;
 }
-footer img {
-	height: 50px;
+#footer img {
+	height: 35px;
 	width: auto;
 	background-color: transparent;
 	border-radius: 20px;
 }
-footer a {
+#footer a {
 	position: relative;
 	float: left;
-	left: 430px;
+	left: 37.9%;
 	padding: 15px 10px 10px 10px;
 }
