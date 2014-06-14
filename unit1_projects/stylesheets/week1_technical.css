@@ -1,0 +1,88 @@
+h1 {
+	text-transform: uppercase;
+	text-shadow: 2px 1px yellow;
+	margin-bottom: 3px auto;
+}
+#header {
+	background-color: rgb(205, 235, 0);
+	margin-bottom-bottom: 50px;
+	text-align: center;
+	border: 5px ridge green;
+}
+
+
+ #one {
+	margin: 15px auto;
+	border: solid 2px red;
+}
+#amazon img {
+	height: 300px;
+	width: auto;
+}
+
+
+#amazon_text {
+	margin-left: 5px;
+}
+
+#two {
+	margin: 15px auto;
+	border: solid 2px green;
+
+}
+#eurosport img {
+	height: 300px;
+	width: auto;
+}
+#eurosport_text {
+}
+
+#three {
+		margin: 15px auto;
+		border: solid 2px blue;
+
+}
+#wikipedia img {
+	height: 300px;
+	width: auto;
+}
+#wikipedia_text {
+
+}
+
+#contact {
+	width: 99.5%;
+	text-align: center;
+	padding: 5px;
+	background-color: #CCFF33;
+
+}
+#contact p {
+	text-align: center;
+	font-family: Arial;
+	font: bolder;
+	font-size: 20px;
+	font-style: normal;
+}
+#contact a:link {
+	text-decoration: none;
+
+}
+#contact a:visited {
+	color: gray;
+}
+#contact a:hover {
+	font-size: 1.5em;
+}
+p a {
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-style: normal;
+}
+p {
+	text-align: justify;
+	margin: auto 5px;
+	font-style: italic;
+	line-height: 140%;
+}
