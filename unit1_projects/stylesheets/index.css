@@ -15,7 +15,7 @@ nav {
 	padding-bottom: 10px;
 	background-color: #A1AFCC;
 }
-button {
+nav button {
 	position: relative;
 	float: left;
 	left: 3%;
@@ -25,13 +25,13 @@ button {
 	margin: 10px 10px 3px 10px;
 	font-weight: 700;
 }
-button a {
+nav button a {
 	text-decoration: none;
 }
-button a:visited {
+nav button a:visited {
 	color: #4876A3;
 }
-button a:hover {
+nav button a:hover {
 	color: #E6E600;
 }
 
@@ -98,14 +98,30 @@ iframe {
 	background-color: #FFAD33;
 }
 #footer img {
+	position: relative;
 	height: 35px;
 	width: auto;
+	vertical-align: middle;
 	background-color: transparent;
 	border-radius: 20px;
 }
-#footer a {
-	position: relative;
+#footer img:hover {
+	border-radius: 0px;
+}
+
+#footer button {
+	height: 60px;
+	width: 100px;
+	margin: 0;
 	float: left;
-	left: 37.9%;
-	padding: 15px 10px 10px 10px;
+	background-color: #FFB84D;
+	border: 1px ridge #996E2E;
+}
+#footer button:hover {
+	background-color:#C9DBFF; 
+}
+
+#buttons {
+	position: relative;
+	left: 27%;
 }
