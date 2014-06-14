@@ -118,7 +118,8 @@ iframe {
 	border: 1px ridge #996E2E;
 }
 #footer button:hover {
-	background-color:#C9DBFF; 
+	background-color:#C9DBFF;
+	border: none; 
 }
 
 #buttons {
