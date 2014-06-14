@@ -7,6 +7,9 @@ body {
 	background-color: #C9DBFF;
 	margin-left: 0;
 }
+p {
+	font-family: Bookman Old Style;
+}
 /* Nav */
 nav {
 	position: fixed;
@@ -15,10 +18,13 @@ nav {
 	padding-bottom: 10px;
 	background-color: #A1AFCC;
 }
+nav :hover {
+	background-color: #C9DBFF;
+}
 nav button {
 	position: relative;
 	float: left;
-	left: 3%;
+	left: 14%;
 	background-color: #DC9680;
 	border-radius:50px; 
 	padding:5px 5px;
@@ -32,7 +38,7 @@ nav button a:visited {
 	color: #4876A3;
 }
 nav button a:hover {
-	color: #E6E600;
+	color: black;
 }
 
 /* Section */
@@ -56,13 +62,12 @@ nav button a:hover {
 	width: 500px;
 	text-align: justify;
 	font-size: 1.15em;
-	font-family: Tahoma;
 	margin-left: 100px;
 	margin-top: 50px;
 }
 figure {
 	margin-left: 0;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 figcaption {
 	font-size: 0.9em;
@@ -79,8 +84,6 @@ iframe {
 	bottom: 60px;
 }
 #right_section p {
-	color: #7A7A00;
-	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: center;
 	margin-bottom: 0;
 }
