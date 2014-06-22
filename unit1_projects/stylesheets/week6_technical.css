@@ -1,5 +1,5 @@
 body {
-	background-color: #FFFFB2;
+	background: linear-gradient(rgb(205, 235, 0), #FFAD33);
 	margin: 0;
 }
 h2 {
@@ -43,8 +43,11 @@ span {
 }
 
 #header {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	top: 0;
 	background-color: rgb(205, 235, 0);
-	margin-bottom: 50px;
 	text-align: center;
 	border: 5px ridge green;
 }
@@ -54,7 +57,7 @@ span {
 	width: 90%;
 	left: 5%;
 	bottom: 55px;
-	margin-top: 65px;
+	margin-top: 210px;
 }
 /* Footer */
 #footer {
