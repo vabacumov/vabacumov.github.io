@@ -3,6 +3,9 @@ body {
 	font: normal 12px/18px 'Helvetica', Arial, sans-serif;
 	background: #44accf;
 }
+h2 {
+	color: #A352CC;
+}
 
 /* Header */
 #header {
