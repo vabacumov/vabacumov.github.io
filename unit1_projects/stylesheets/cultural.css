@@ -69,3 +69,11 @@ h2 {
 	margin-right: auto;
 	margin-left: auto;
 }
+/* Week 8 */
+.centered_img {
+	display: block;
+	height: 250px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
