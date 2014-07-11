@@ -1,0 +1,31 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border: 1px solid black;
+  text-align: center;
+}
+      
+pre {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+td {
+  width: 330px;
+  padding: 20px;
+  border: 1px solid black;
+}
+caption {
+  font-size: 2.5em;
+}
+
+#full_row {
+  width: 800px;
+}
+p {
+  text-align:left;
+  text-align:justify;
+}

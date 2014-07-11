@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>JavaScript Object Cheat Sheet</title>
+    <link rel="stylesheet" type="text/css" href="cheatsheet_stylesheet.css" />
+  </head>
+  
+  <body>
+    <table>
+      <caption>JavaScript Objects Cheat Sheet</caption>
+       <tr>
+        <td colspan="2"><h3>What are objects in JavaScript?</h3>
+            <p>JavaScript objects are a datatype which include a series of property/value pairs. Similar
+            to associative arrays in other programming languages. Objects in JavaScript are indicated by curly brackets.</p></td>
+       </tr>
+       <tr>
+          <td>
+            
+            <h3>Properties and Values</h3>
+            <p>Properties and values in a JavaScript object are separated by a ":". 
+            Each property/value pair is separated by a comma within the brackets. A JavaScript object is a collection of unordered properties. Properties can usually be changed, added, and deleted, but some are read only. Property is a variable attached to an object that is assigned a value. Property/value pairs are similar to key/value pairs for hashes in Ruby.</p>
+          </td>
+          <td>
+            <h3>Example</h3>
+            <pre><code>
+  var firstObject = {
+    property: "value",
+    name : "first",
+    number: 1
+  };
+            </code></pre>
+          </td>
+       </tr>
+  
+       <tr>
+         <td>
+          <h3>Accessing object properties</h3>
+          <p>There are several ways of accessing information within a JavaScript object. You can access either through bracket notation or dot notation. A significant difference, is that only bracket notation allows access to values using variables.</p>
+         </td>
+         <td>
+          <h3>Example</h3>
+          <pre><code>  
+  var object = { property : "value" };
+  var x = 'property';
+  
+  Dot notation:
+  object.property;
+    ==> "value"
+  object.x;
+    ==> undefined
+    
+  Bracket notation:
+  object["property"];
+    ==> "value"
+  object[x];
+    ==> "value"
+          </code></pre>
+         </td>
+       </tr>
+       <tr>
+         <td>
+            <h3>Modifying and adding object properties</h3>
+            <p>To change the value of an object value you can also use either bracket or dot notation.</p>
+         </td>
+         <td>
+            <h3>Example</h3>
+            <pre><code>
+  var emptyObject = {};
+  
+  Dot Notation:
+  emptyObject.property = "value";
+  emptyObject;
+    ==> {property: "value"}
+  emptyObject.property = "changed value";
+    ==> {property: "changed value"}
+  
+  Bracket Notation:
+  emptyObject["property"] = "value";
+  emptyObject;
+    ==> {property : "value"}
+  emptyObject["property"] = "changed value";
+  emptyObject;
+    ==> {property : "changed value"}
+            </code></pre>
+         </td>
+       </tr>
+       <tr>
+         <td>
+            <h3>Deleting object properties</h3>
+            <p>To delete an object's property the "delete" keyword is used</p>
+         </td>
+         <td>
+          <h3>Example</h3>
+          <pre><code>
+  var object = { property : "value" };
+  object;
+    ==> { property : "value" }
+  delete object.property; 
+  // or delete object["property"];
+  object.property;
+    ==> undefined
+  object;
+    ==> {} 
+          </code></pre>
+         </td>
+       </tr>
+       <tr>
+         <td>
+            <h3>Looping through the objects' properties (values)</h3>
+            <p>To loop through the object's properties (or values) a "for...in" loop is used.</p>
+         </td>
+         <td>
+            <h3>Example</h3>  
+            <pre><code>
+  var looper = { fname:"John", 
+                 lname:"Doe", 
+                 age:25 };
+  for (x in person) {
+    txt += person[x] + " ";
+  }
+  txt;
+    ==> "John Doe 25"
+  
+  for (x in person) {
+    txt += x + " ";
+  }
+  txt;
+    ==> "fname lname age"
+            </code></pre>
+         </td>
+       </tr>
+    
+    </table>
+    
+  </body>
+  
+</html>
+
+
+  
