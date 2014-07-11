@@ -18,6 +18,7 @@ nav {
 	padding-bottom: 10px;
 	background-color: #A1AFCC;
 }
+
 nav :hover {
 	background-color: #C9DBFF;
 }
@@ -45,6 +46,7 @@ nav button a:hover {
 
 /* Section */
 #section {
+	margin-top: 50px;
 	width: 100%;
 }
 #left_section {
@@ -65,7 +67,7 @@ nav button a:hover {
 	text-align: justify;
 	font-size: 1.15em;
 	margin-left: 100px;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 figure {
 	margin-left: 0;
