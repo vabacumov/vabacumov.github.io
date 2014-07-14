@@ -77,3 +77,11 @@ h2 {
 	margin-right: auto;
 	margin-left: auto;
 }
+/*Week 9 */
+#question {
+	display: block;
+	height: 300px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
